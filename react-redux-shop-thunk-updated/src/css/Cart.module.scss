@@ -1,0 +1,23 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+
+    .Cart{
+        width: 90vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;   
+        margin: 1rem;
+        box-shadow: .3rem .5rem .3rem silver  ;
+        .img{
+            margin-right: -10rem;
+            img{
+                width: 6rem;
+                height: 8rem;
+            }
+        }
+    }
+}

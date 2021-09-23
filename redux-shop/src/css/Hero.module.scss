@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    div{
+        cursor: pointer;
+        img{
+            &:hover{
+                padding-top: .5rem;
+
+            }
+        }    
+    }
+}
